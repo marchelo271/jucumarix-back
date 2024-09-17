@@ -1,7 +1,6 @@
 
 var config = require('../models/config'); 
 var fs = require('fs'); 
-const { data } = require('jquery');
 var path = require('path');
 
 const obtener_config_admin = async function (req , res) {
